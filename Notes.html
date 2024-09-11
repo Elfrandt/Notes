@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kata-Kata Motivasi</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .notebook {
+            width: 80%;
+            max-width: 600px;
+            background: #fff;
+            border: 2px solid #ff6f61;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        .notebook::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                to bottom,
+                #fff,
+                #fff 1px,
+                #f0f0f0 1px,
+                #f0f0f0 2px
+            );
+            z-index: 1;
+        }
+        .notebook-content {
+            position: relative;
+            z-index: 2;
+            line-height: 1.6;
+        }
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #ff6f61;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #ff6f61;
+        }
+        .quote {
+            font-size: 20px;
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+            padding: 10px;
+            background: #ffeb3b;
+            border-radius: 8px;
+        }
+        .author {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="notebook">
+        <div class="notebook-content">
+            <h1>Notes From Me Hehehee</h1>
+            <p class="quote">"Yahoo tetehkuuu, gimana kabarmu? hari ini berjalan dengan baik? Aku seneng loh liat teteh tuh bahagia. Yah ini cuma hadiah kecil-kecilan sih buat tetehku, tapi yah aku bener bener berusaha keras buat ini. Tetap semangat yahh, kuliah bukan tempat buat full stress, tapi untuk meraih mimpi dan kesuksesanmu. KEEP GOING!!!"</p>
+            <p class="author">- God Bless You</p>
+            <footer>
+                <a href="javascript:history.back()">Kembali ke halaman sebelumnya</a>
+               </footer>
+        </div>
+    </div>
+
+</body>
+</html>
